@@ -1,0 +1,57 @@
+body {
+  margin:0;
+  padding: 0;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  .main-intro {
+    text-align: center;
+    height: 100vh;
+    background-image: url("../images/mainbg.jpg");
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    z-index: 1;
+    padding-top: 1px;
+
+  }
+ 
+.intro-text {
+  text-align: center;
+  height: 100vh;;
+    
+}
