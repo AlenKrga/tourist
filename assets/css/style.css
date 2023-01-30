@@ -38,7 +38,7 @@ ul {
 
   .main-intro {
     text-align: center;
-    height: 100vh;
+    height: 89vh;
     background-image: url("../images/mainbg.jpg");
     background-attachment: fixed;
     background-size: cover; 
@@ -47,11 +47,8 @@ ul {
     margin-bottom: 0px;
     z-index: 1;
     padding-top: 1px;
+    color: whitesmoke;
 
   }
  
-.intro-text {
-  text-align: center;
-  height: 100vh;;
-    
-}
+ 
