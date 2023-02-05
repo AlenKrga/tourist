@@ -38,11 +38,13 @@ nav ul {
     padding: 10px;
     text-align: center;
     color: white;
+    position: relative;
+    
   }
 
   .main-intro {
     text-align: center;
-    height: 89vh;
+    height: 100vh;
     background-image: url("../images/mainbg.jpg");
     background-attachment: fixed;
     background-size: cover; 
@@ -52,7 +54,7 @@ nav ul {
     z-index: 1;
     padding-top: 1px;
     color: whitesmoke;
-
+    
   }
  
  /* Contact form */
@@ -64,7 +66,7 @@ nav ul {
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
   resize: vertical;
  }
 
