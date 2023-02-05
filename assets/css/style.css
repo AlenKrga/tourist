@@ -55,4 +55,37 @@ nav ul {
 
   }
  
+ /* Contact form */
+
+ input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+ }
+
+ input[type=submit] {
+  background-color: #04aa6d;
+  color: rgb(255, 255, 255);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ }
+
+ input[type=submit]:hover {
+  background-color: #333;
+  transition: 0.3s;
+ }
  
+ .emailform {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  opacity: 0.8;
+  padding: 20px;
+  margin: 10em;
+ }
