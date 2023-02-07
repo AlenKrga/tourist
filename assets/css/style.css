@@ -82,10 +82,31 @@ nav ul {
    
   
   }
- 
+
+.gallery > img {
+  border-radius: 20px;
+  
+}
+
+/* on hover animation over bed icon */
+.bed > img:hover {
+  background-color: rgb(35, 95, 246);
+  animation-name: example;
+  animation-duration: 4s;
+  border-radius: 5px;
+}
+
+@keyframes example {
+  0%   {background-color: rgb(22, 99, 232);}
+  25%  {background-color: rgb(0, 248, 244);}
+  50%  {background-color: blue;}
+  100% {background-color: rgb(5, 95, 5);}
+}
+
+
  /* Contact form */
 
- input[type=text], select, textarea {
+ input[type=text], input[type=email], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid gray;
@@ -95,6 +116,8 @@ nav ul {
   margin-bottom: 10px;
   resize: vertical;
  }
+
+ 
 
  input[type=submit] {
   background-color: #04aa6d;
