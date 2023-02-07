@@ -83,8 +83,8 @@ nav ul {
   
   }
 
-.gallery > img {
-  border-radius: 20px;
+.gallery > a img {
+  border-radius: 6%;
   
 }
 
