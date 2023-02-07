@@ -83,8 +83,11 @@ nav ul {
   
   }
 
+
+
 .gallery > a img {
   border-radius: 6%;
+  border-radius: %;
   
 }
 
@@ -115,6 +118,7 @@ nav ul {
   margin-top: 6px;
   margin-bottom: 10px;
   resize: vertical;
+  
  }
 
  
@@ -139,6 +143,7 @@ nav ul {
   opacity: 0.8;
   padding: 20px;
   margin: 10em;
+  color:rgb(53, 50, 50)
  }
 
 
